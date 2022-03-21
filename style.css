@@ -74,10 +74,45 @@ img {
 
 
 /* MEDIA QUERY */
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 420px) {
+  body {
+    margin: 0;
+  }
+
   .row {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
+    padding-top: 10px;
+  }
+
+  #lezioni.container .row {
+    background-color: #EFF0C2;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    background-color: #EFF0C2;
+    color: gray;
+    width: 50%;
+    float: none;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    color: black;
+  }
+
+  img {
+    height: 150px;
+  }
+
+  #steps {
+    background-color: white;
   }
 }
